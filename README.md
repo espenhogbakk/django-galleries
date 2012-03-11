@@ -9,7 +9,7 @@ It has an easy to use, drag & drop interface for managing the photos. It also in
 cropping the images.
 
 Configuration
-_____
+-------------
 
 Sadly, there is a few things that needs to be configured. I will try to make this 
 list smaller with time, but for now everything is necessary. This is somewhat because 
@@ -51,7 +51,7 @@ Then in your `urls.py` file
 
 Add `(r'^admin/galleries', include('galleries.urls', namespace='galleries', app_name='galleries')),`
 
-If you are in development mode, remember to host your media files accordingly, e.g add something like this
+If you are in development mode, remember to host your media files accordingly, add something like this
 
     from django.conf import settings
     # Serve media files through Django if in debug mode
@@ -63,14 +63,14 @@ If you are in development mode, remember to host your media files accordingly, e
         )
 
 At the moment, all images in a gallery has to use the same aspect ratio, it defaults to `16/9`, but you
-can override that with the setting `GALLERIES_IMAGE_CROPPING_RATIO`, e.g:
+can override that with the setting `GALLERIES_IMAGE_CROPPING_RATIO`:
 
     GALLERIES_IMAGE_CROPPING_RATIO = '5/4
 
 And at last, remember to do a syncdb to update the database.
 
 Usage
-_____
+-----
 
 Add the GalleryForeignKey to your models.py file, e.g:
 
