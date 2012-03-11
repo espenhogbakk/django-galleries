@@ -6,7 +6,7 @@ setup(
     name = 'django-galleries',
     version = __version__,
     description = "Django Galleries is a photo gallery app with support for cropping.",
-    long_description = open('README.rst').read(),
+    long_description = open('README.md').read(),
     author = "Espen Høgbakk",
     author_email = "espen@hogbakk.no",
     url = "http://github.com/espenhogbakk/django-galleries",
