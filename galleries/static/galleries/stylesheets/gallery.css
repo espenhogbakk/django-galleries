@@ -1,0 +1,52 @@
+#gallery {
+    margin-left: 0;
+}
+
+#gallery ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#gallery ul li {
+    margin-right: 1px;
+    list-style: none;
+    float: left;
+    text-align: center;
+    position: relative;
+}
+
+#gallery ul li .deleteBtn {
+  display: block;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: -10px;
+  right: -10px;
+  background: url(../javascripts/lib/fancybox/fancy_close.png), no-repeat;
+  z-index: 9999;
+  text-indent: -5000px;
+}
+
+#gallery #upload {
+    float: left;
+    padding: 20px;
+    width: 200px;
+    height: 95px;
+    margin-top: 2px;
+    background: #eaeaea;
+    display: block;
+    text-align: center;
+    margin-right: 1px;
+}
+
+#gallery #upload p {
+    padding: 0;
+    margin: 20px 0 20px 0;
+}
+
+#gallery #upload input {
+    margin: 0 0 0 25px;
+    padding: 0;
+    float: left;
+}
