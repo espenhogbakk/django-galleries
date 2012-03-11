@@ -8,6 +8,9 @@ Django Galleries is a photo gallery app that makes it easy to include galleries 
 It has an easy to use, drag & drop interface for managing the photos. It also includes tools for
 cropping the images.
 
+![Example](https://github.com/espenhogbakk/django-galleries/raw/master/docs/images/example_gallery.png)
+![Example edit](https://github.com/espenhogbakk/django-galleries/raw/master/docs/images/example_gallery_edit.png)
+
 Configuration
 -------------
 
