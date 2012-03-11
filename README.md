@@ -31,8 +31,8 @@ And this to `INSTALLED_APPS`
     'image_cropping',
     'galleries',
 
-Until the `respite` app figures out how to not require this, uncomment out the following line 
-(be aware of the security implications this can have) `'django.middleware.csrf.CsrfViewMiddleware',` 
+Until the `respite` app figures out how to not require this, comment out the following line 
+(be aware of the security implications this might have) `'django.middleware.csrf.CsrfViewMiddleware',` 
 in your `MIDDLEWARE_CLASSES`.
 
 Make sure that you have configured your `MEDIA_ROOT` to handle file uploads. Set it to something 
