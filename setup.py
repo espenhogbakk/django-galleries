@@ -18,7 +18,7 @@ setup(
         'easy_thumbnails',
         'PIL',
         'django-orderable',
-        'image_cropping'
+        'django-image-cropping'
     ],
     dependency_links = [
         'https://github.com/tkaemming/django-orderable/tarball/master#egg=orderable-dev',
