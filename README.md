@@ -21,10 +21,10 @@ I am utilizing a few other apps.
 
 In your `settings` module add the following:
 
-    from easy_thumbnails import defaults
+    from easy_thumbnails.conf import settings as thumbsettings
     THUMBNAIL_PROCESSORS = (
         'image_cropping.thumbnail_processors.crop_corners',
-    ) + defaults.PROCESSORS
+    ) + thumbsettings.THUMBNAIL_PROCESSORS
 
 
 And this to `INSTALLED_APPS`
