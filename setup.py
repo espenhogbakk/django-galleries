@@ -17,8 +17,8 @@ setup(
         'django-respite',
         'easy_thumbnails',
         'PIL',
-        'orderable',
-        'image_cropping'
+        'django-orderable',
+        'django-image-cropping'
     ],
     dependency_links = [
         'https://github.com/tkaemming/django-orderable/tarball/master#egg=orderable-dev',
