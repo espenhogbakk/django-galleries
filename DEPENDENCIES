@@ -3,4 +3,4 @@ PIL
 easy_thumbnails
 git+git://github.com/tkaemming/django-orderable.git
 git+git://github.com/jonasundderwolf/django-image-cropping.git
-django-respite
+django-respite>=1.20

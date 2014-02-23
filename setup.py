@@ -14,7 +14,7 @@ setup(
     include_package_data = True,
     install_requires = [
         'easy_thumbnails', 
-        'django-respite',
+        'django-respite>=1.2.0',
         'easy_thumbnails',
         'PIL',
         'django-orderable',
