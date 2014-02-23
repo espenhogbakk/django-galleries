@@ -41,6 +41,8 @@ class GalleryWidget(object):
 class GalleryForeignKeyWidget(ForeignKeyRawIdWidget, GalleryWidget):
 
     def __init__(self, *args, **kwargs):
+        from django.contrib.admin.sites import site
+        args += (site,)
         super(GalleryForeignKeyWidget, self).__init__(*args, **kwargs)
 
     def render(self, name, value, *args, **kwargs):
